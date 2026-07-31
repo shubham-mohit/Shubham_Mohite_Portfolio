@@ -1123,10 +1123,10 @@ export default function App() {
               <a href="mailto:shubhammohite801@gmail.com" className="flex items-center gap-2 hover:text-indigo-400 transition-colors select-all">
                 <Mail className="w-4 h-4 text-slate-550" /> shubhammohite801@gmail.com
               </a>
-              <a href="https://github.com/shubham" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
+              <a href="https://github.com/shubham-mohit" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
                 <Github className="w-4 h-4 text-slate-550" /> github.com/shubham
               </a>
-              <a href="https://linkedin.com/in/shubham" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
+              <a href="https://github.com/shubham-mohit" target="_blank" rel="noreferrer" className="flex items-center gap-2 hover:text-indigo-400 transition-colors">
                 <Linkedin className="w-4 h-4 text-slate-550" /> linkedin.com/in/shubham
               </a>
               <span className="flex items-center gap-2 select-text text-slate-400">
