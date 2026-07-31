@@ -1094,7 +1094,7 @@ export default function App() {
               </h1>
               <h2 className="font-display font-semibold text-lg sm:text-2xl text-indigo-400 flex items-center gap-2.5">
                 <Terminal className="w-6 h-6 text-indigo-400" />
-                High-Performance Full-Stack Architect
+                High-Performance Full-Stack Developer
               </h2>
             </div>
 
