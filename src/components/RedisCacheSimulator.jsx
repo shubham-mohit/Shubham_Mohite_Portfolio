@@ -1172,7 +1172,7 @@ export default function App() {
                 {/* Metric 1 */}
                 <div className="space-y-1.5">
                   <div className="flex justify-between text-[11px] mb-1">
-                    <span className="text-slate-450">System Availability (AGMAH)</span>
+                    <span className="text-slate-450">System Availability</span>
                     <span className="text-emerald-400 font-bold">99.99% Uptime</span>
                   </div>
                   <div className="w-full bg-slate-950 h-1.5 rounded-full overflow-hidden border border-slate-900">

@@ -214,24 +214,37 @@ export const experienceData = [
 export const projectsData = [
   {
     id: "proj1",
-    title: "Smart-Supervisor",
-    description: "An intelligent, multi-tenant IoT & Content management supervisor engineered to coordinate connected devices and secure multi-tenant libraries.",
-    summary: "Created to address strict client data isolation challenges while handling live data reporting from smart controllers.",
-    role: "Core Full-Stack Architect",
-    techTags: ["Node.js", "MongoDB", "Zenoh Pub/Sub", "React.js", "E-Books Management", "Multi-tenancy"],
+    title: "Scalable Multi-Tenant Backend Systems",
+    description:
+      "Designed and developed scalable backend services and web applications with a focus on multi-tenant architecture, data isolation, real-time communication, and reliable API development.",
+    summary:
+      "Built production-focused backend solutions supporting multiple organizations while ensuring secure data separation, efficient database operations, and real-time data processing.",
+    role: "Backend / Full-Stack Engineer",
+    techTags: [
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "React.js",
+      "Redis",
+      "REST APIs",
+      "JavaScript",
+      "AWS S3"
+    ],
     keyFeatures: [
-      "Multi-Tenant Collection Dynamic Isolation: Dynamically connects Mongoose schemas on-the-fly per organization, guaranteeing absolute logical partition.",
-      "IoT Messaging Core: Integrated low-overhead Zenoh Pub/Sub networks for fluid, bi-directional telemetry stream from remote monitors.",
-      "E-Book Publisher Module: Built an administrative book compiler handling PDF encryption, structured reading indices, and granular reader logs."
+      "Developed scalable REST APIs with authentication, authorization, validation, and structured error handling.",
+      "Implemented multi-tenant data isolation strategies to support multiple organizations securely within backend systems.",
+      "Built real-time data processing and communication features for responsive production applications."
     ],
     systemHighlights: [
       {
-        title: "Dynamic Model Router",
-        description: "Enables single Node instance to securely support hundreds of companies without cross-tenant leakage by generating dynamic MongoDB connections."
+        title: "Multi-Tenant Architecture",
+        description:
+          "Designed backend patterns for securely managing organization-specific data while maintaining logical isolation and scalable database operations."
       },
       {
-        title: "IoT Socket Streamer",
-        description: "Streams bidirectional telemetry values with under 15ms delay, allowing realtime control of connected industrial nodes."
+        title: "Scalable API Services",
+        description:
+          "Built and maintained production APIs focused on reliability, performance, secure authentication, and efficient data handling."
       }
     ]
   },
